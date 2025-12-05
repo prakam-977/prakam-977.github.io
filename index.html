@@ -28,8 +28,7 @@
 				<div class="inner">
 					<h1>Prakam</h1>
 					<p>
-						AI Researcher & Low-Latency Systems Engineer<br>
-						Independent Research · LLM Reasoning · Market Connectivity
+						AI Research Engineer & Low-Latency Systems Developer<br>
 					</p>
 				</div>
 			</div>
@@ -69,45 +68,53 @@
 
 			<!-- Intro -->
 			<article id="intro">
-				<h2 class="major">Intro</h2>
+<h2 class="major">Intro</h2>
 
-				<p>
-					<span class="image main">
-						<img style="max-height:450px; object-fit:cover;" src="images/profile.jpg" alt=""/>
-					</span>
-				</p>
+<p>
+	<span class="image main">
+		<img style="max-height:450px; object-fit:cover;" src="images/profile.jpg" alt=""/>
+	</span>
+</p>
 
-				<p>
-					I am <strong>Prakam</strong>, an <strong>AI researcher (May 2025 – Present)</strong> focused on the
-					systematic evaluation of <strong>reasoning capabilities of large language models</strong>.
-					I collaborate with Prof. Carolyn Rosé and Prof. David R. Mortensen at Carnegie Mellon University,
-					studying multi-step reasoning benchmarks and test-time inference behaviors.
+<p>
+	I am <strong>Prakam</strong>, an <strong>independent AI researcher (May 2025 – Present, during post-industry non-compete)</strong> focused on the
+	systematic evaluation of <strong>reasoning capabilities of large language models</strong>.
+	I collaborate with Prof. Carolyn Rosé and Prof. David R. Mortensen at Carnegie Mellon University on multi-step
+	reasoning benchmarks and test-time inference behaviors.
 
-					<br><br>
+	<br><br>
 
-					I am a contributor to
-					<a href="https://arxiv.org/abs/2505.23126">PBEBench</a>, a synthetic and contamination-free benchmark
-					for evaluating multi-step inductive reasoning through string rewrite tasks inspired by
-					program synthesis and historical linguistics. My work spans experimental design,
-					benchmark construction, evaluation methodology, and analysis of reasoning generalization.
-				</p>
+	I am a contributor to
+	<a href="https://arxiv.org/abs/2505.23126">PBEBench</a>, a synthetic, contamination-free benchmark for evaluating
+	inductive reasoning via string rewrite tasks inspired by program synthesis and historical linguistics.
+	My work spans benchmark design, evaluation methodology, and analysis of reasoning generalization.
+</p>
 
-				<p>
-					Prior to research, I worked as a <strong>low-latency systems engineer in high-frequency trading
-					and market connectivity (2022 – 2025)</strong>, building performance-critical C++ systems for
-					exchange gateways, order routing, and real-time market data processing. This involved
-					hands-on experience with race conditions, tail-latency spikes, kernel/network tuning,
-					and distributed correctness issues under microsecond-scale latency constraints.
-				</p>
+<p>
+	I am currently a <strong>Remote Research Assistant at the University of Illinois Urbana-Champaign (Sept 2025 – Present)</strong>,
+	working on <strong>RL post-training optimization</strong> under Prof. Dilek Hakkani-Tür and Prof. Hao Peng.
+	I showed that a small ~10% parameter subnet updated during RL fine-tuning drives nearly <strong>99% of benchmark performance</strong>
+	across PPO, DPO, and GRPO regimes. I am developing ranking methodologies <strong>such as Fisher-score and Hessian-based methods</strong>
+	to identify performance-critical subnets early in training, enabling large-scale parameter freezing to reduce
+	fine-tuning compute costs.
+</p>
 
-				<p>
-					My long-term research interests include:
-					<ul>
-						<li>Reasoning evaluation and controllability of LLMs</li>
-						<li>Neuro-symbolic and program-synthesis-based benchmarks</li>
-						<li>Low-latency infrastructure for real-time AI systems</li>
-					</ul>
-				</p>
+<p>
+	Prior to research, I worked as a <strong>low-latency systems engineer in high-frequency trading
+	and market connectivity (2022 – 2025)</strong>, building performance-critical C++ systems for
+	exchange gateways, order routing, and real-time market data processing. This involved
+	hands-on experience with race conditions, tail-latency spikes, kernel/network tuning,
+	and distributed correctness issues under microsecond-scale latency constraints.
+</p>
+
+<p>
+	My long-term research interests include:
+	<ul>
+		<li>Reasoning evaluation and controllability of LLMs</li>
+		<li>Neuro-symbolic and program-synthesis-based benchmarks</li>
+		<li>Infrastructure development for real-time AI systems</li>
+	</ul>
+</p>
 			</article>
 
 			<!-- Work -->
@@ -135,47 +142,53 @@
 					<h3>Experience</h3>
 					<table class="table table-hover">
 						<tbody>
-
+				
 							<tr>
 								<td>May 2025 – Present</td>
 								<td>
 									<strong>AI Researcher (CMU Collaboration)</strong><br>
-									LLM reasoning evaluation with Prof. Carolyn Rosé and Prof. David R. Mortensen.
+									Ongoing collaboration with 
+									<a href="https://cp3a.github.io/" target="_blank" rel="noopener noreferrer">Prof. Carolyn Rosé</a> and 
+									<a href="https://www.cs.cmu.edu/~dmortens/" target="_blank" rel="noopener noreferrer">Prof. David R. Mortensen</a> 
+									focused on systematic evaluation of multi-step reasoning in large language models. I help design controlled
+									benchmarks and analysis pipelines to probe compositional behavior, rule application, and failure modes under
+									constrained reasoning settings. This work resulted in our paper,
+									<a href="https://arxiv.org/pdf/2505.23126" target="_blank" rel="noopener noreferrer">PBE-Bench</a>,
+									which introduces a domain-agnostic synthetic benchmark for testing inductive reasoning through structured
+									program-synthesis tasks and multi-step string-rewrite systems, revealing brittle reliance on surface heuristics
+									and breakdowns in rule composition.
 								</td>
 							</tr>
-
+				
 							<tr>
 								<td>Sept 2025 – Present</td>
 								<td>
 									<strong>Remote Research Assistant – RL Post-Training Optimization</strong><br>
 									University of Illinois Urbana-Champaign (USA)<br>
 									Advisors: Prof. Dilek Hakkani-Tür, Prof. Hao Peng<br><br>
-
-									Empirically showed that a small subnet (≈10%) of parameters updated during
-									RL fine-tuning drives ~99% of benchmark performance, consistent across
-									optimization regimes (PPO, DPO, GRPO) and tasks.
-
-									<br><br>
-
-									Developing ranking methods using Fisher scores and Hessian diagonal
-									approximations to identify performance-critical subnets early in training,
-									enabling large-scale parameter freezing to reduce RL fine-tuning compute costs.
+				
+									Researching parameter efficiency in RL fine-tuning of large language models. Through large-scale empirical
+									analysis across PPO, DPO, and GRPO training regimes, I study how a small subset of parameters dominates task
+									performance. I am developing ranking methods based on Fisher scores and Hessian diagonal approximations to
+									identify performance-critical subnets early in training, enabling targeted parameter updates and large-scale
+									parameter freezing to significantly reduce post-training compute costs.
 								</td>
 							</tr>
-
+				
 							<tr>
 								<td>2022 – 2025</td>
 								<td>
 									<strong>Low-Latency C++ Developer & Market Connectivity Specialist</strong><br>
-									Built real-time trading infrastructure, exchange gateways, and tick-to-trade
-									pipelines operating under microsecond-scale latency budgets.
+									Designed and built ultra–low-latency market connectivity systems, including distributed network instrumentation for
+									cross-server traffic reconstruction and hybrid market-data aggregation pipelines for fragmented venues. Led
+									performance optimization of critical hot paths through profiling and low-level tuning, achieving substantial latency
+									reductions across real-time trading workflows.
 								</td>
 							</tr>
-
+				
 						</tbody>
 					</table>
 				</p>
-
 				<p>
 					<h3>Publications & Preprints</h3>
 					<table class="table table-hover">
@@ -221,4 +234,5 @@
 
 	</body>
 </html>
+
 
